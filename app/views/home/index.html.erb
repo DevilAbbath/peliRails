@@ -1,32 +1,28 @@
+<div class="container mt-5 pt-3">
+   
+   <h2 class="display-5 text-center">Welcome to PeliRails</h2>
+   <p class="text-center">Please selecct an option to be reditrect</p>
 
-<div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  </div>
-</div>
+   <hr>
 
-
-<div class="card-group">
-   <div class="card">
-      <%= link_to(image_tag("Series.jpg", alt: "sere"), class: "series")%>
-      <div class="card-img-overlay">
-         <%= link_to 'Series', movies_path, class: "btn btn-outline-light btn-lg" %>
+   <div class="card-group">
+      <div class="card">
+         <%= link_to(image_tag("Series.jpg", alt: "sere"), class: "series")%>
+         <div class="card-img-overlay">
+            <%= link_to 'Series', series_path, class: "btn btn-outline-light btn-lg" %>
+         </div>
       </div>
-   </div>
-   <div class="card">
-      <%= link_to(image_tag("Series.jpg", alt: "sere"), class: "series")%>
-      <div class="card-img-overlay">
-         <h5 class="card-title">Movies</h5>
+      <div class="card">
+         <%= link_to(image_tag("movies.jpg", alt: "movi"), class: "movie")%>
+         <div class="card-img-overlay">
+            <%= link_to 'Movies', movies_path, class: "btn btn-outline-light btn-lg" %>
+         </div>
       </div>
-   </div>
-   <div class="card">
-      <%= link_to(image_tag("Series.jpg", alt: "sere"), class: "series")%>
-      <div class="card-img-overlay">
-         <h5 class="card-title text-center">Documentary film</h5>
+      <div class="card">
+         <%= link_to(image_tag("documentary.jpg", alt: "docu"), class: "docmentary")%>
+         <div class="card-img-overlay">
+            <%= link_to 'Documentary', documentary_films_path, class: "btn btn-outline-dark btn-lg" %>
+         </div>
       </div>
    </div>
 </div>

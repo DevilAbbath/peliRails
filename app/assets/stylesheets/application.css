@@ -26,6 +26,7 @@ body {
 nav {
 	background-color: #030c17;
 	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 1rem;
 }
 
 .card-custom {
@@ -36,4 +37,10 @@ nav {
 
 .card img {
 	width: 100%;
+}
+
+.card-img-overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
